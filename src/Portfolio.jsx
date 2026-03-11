@@ -44,7 +44,7 @@ const PROJECTS = [
       "End-to-end ML pipeline predicting customer churn on telecom data. Applied SMOTE, feature engineering, and hyperparameter tuning to achieve 87% accuracy. Deployed as an interactive Streamlit dashboard containerised with Docker.",
     highlight: "87% Accuracy",
     icon: "📉",
-    github: "https://github.com/binil-sanil-liby/customer-churn-prediction",
+    github: "https://github.com/Binil-S-L/customer-churn-prediction",
   },
   {
     title: "Sentiment Analysis NLP API",
@@ -53,7 +53,7 @@ const PROJECTS = [
       "Fine-tuned BERT on 50k product reviews for multi-class sentiment classification. Exposed via a FastAPI REST endpoint with a React frontend for real-time inference. Outperformed TF-IDF baseline by 14%.",
     highlight: "F1 Score 0.89",
     icon: "🧠",
-    github: "https://github.com/binil-sanil-liby/sentiment-analysis-api",
+    github: "https://github.com/Binil-S-L/sentiment-analysis-api",
   },
   {
     title: "House Price Prediction",
@@ -62,7 +62,7 @@ const PROJECTS = [
       "Benchmarked three gradient boosting models on Zillow US housing dataset. XGBoost achieved the lowest RMSE and best R², with forward-looking price forecasts for real estate stakeholders.",
     highlight: "Best R² Score",
     icon: "🏠",
-    github: "https://github.com/binil-sanil-liby/house-price-prediction",
+    github: "https://github.com/Binil-S-L/house-price-prediction",
   },
 ];
 
@@ -328,7 +328,7 @@ export default function Portfolio() {
                 { label: "Email", value: "official.binilsl@gmail.com", href: "mailto:official.binilsl@gmail.com" },
                 { label: "Phone", value: "07436 378585", href: "tel:07436378585" },
                 { label: "LinkedIn", value: "linkedin.com/in/binil-sanil-liby", href: "https://linkedin.com/in/binil-sanil-liby" },
-                { label: "GitHub", value: "github.com/binil-sanil-liby", href: "https://github.com/binil-sanil-liby" },
+                { label: "GitHub", value: "github.com/Binil-S-L", href: "https://github.com/Binil-S-L" },
               ].map(({ label, value, href }) => (
                 <a key={label} href={href} target="_blank" rel="noreferrer" style={{
                   display: "flex", alignItems: "center", gap: 16, padding: "16px 32px", width: "100%", maxWidth: 420,
