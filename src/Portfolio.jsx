@@ -103,7 +103,6 @@ function FadeIn({ children, delay = 0, className = "" }) {
 
 export default function Portfolio() {
   const [active, setActive] = useState("About");
-  const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -115,7 +114,6 @@ export default function Portfolio() {
   const scrollTo = (id) => {
     document.getElementById(id.toLowerCase())?.scrollIntoView({ behavior: "smooth" });
     setActive(id);
-    setMenuOpen(false);
   };
 
   return (
