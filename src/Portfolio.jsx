@@ -6,6 +6,16 @@ const NAV_LINKS = ["About", "Experience", "Projects", "Skills", "Contact"];
 
 const EXPERIENCE = [
   {
+    role: "AI Trainer",
+    company: "Outlier AI",
+    location: "Remote, UK",
+    period: "Nov 2024 – Present",
+    bullets: [
+      "Evaluate and refine AI-generated responses across coding, reasoning, and language tasks to improve model accuracy and alignment.",
+      "Provide expert feedback on LLM outputs, identifying failure modes and writing high-quality preference data used in RLHF training pipelines.",
+    ],
+  },
+  {
     role: "Junior Developer Trainee",
     company: "Experion Global",
     location: "India",
